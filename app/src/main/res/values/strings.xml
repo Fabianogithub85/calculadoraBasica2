@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="strSoma">+</string>
+    <string name="strIgual">=</string>
+    <string name="strN1">First number</string>
+    <string name="strN2">Secund number</string>
+    <string name="strSub">-</string>
+    <string name="strMult">X</string>
+    <string name="strDiv">/</string>
+    <string name="strCalculadoraBasica">Basic calculator</string>
+    <string name="strPronto">Ready!</string>
+    <string name="msgErro">Type a number</string>
+</resources>

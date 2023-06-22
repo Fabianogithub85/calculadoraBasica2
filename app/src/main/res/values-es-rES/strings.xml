@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="strSoma">+</string>
+    <string name="strIgual">=</string>
+    <string name="strN1">Primer numero</string>
+    <string name="strN2">Segundo numero</string>
+    <string name="strSub">-</string>
+    <string name="strMult">X</string>
+    <string name="strDiv">/</string>
+    <string name="strCalculadoraBasica">Calculadora basica</string>
+    <string name="strPronto">¡Listo!</string>
+    <string name="msgErro">Ingrese un numero</string>
+</resources>
