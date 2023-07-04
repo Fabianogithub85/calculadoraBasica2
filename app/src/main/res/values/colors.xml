@@ -2,5 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFD12</color>
     <color name="edtTxtResult">#21219c</color>
 </resources>

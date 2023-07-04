@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Declarando atributos:
+    // Declarando variáveis:
     TextView edtTxtResult, strPronto;
     EditText edtTxtEntrada;
     EditText edtTxtEntrada2;

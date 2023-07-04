@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/strCalculadoraBasica"
+        android:textColor="@color/material_dynamic_neutral50"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -33,7 +35,9 @@
             android:id="@+id/txtN1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
             android:text="@string/strN1"
+            android:textColor="@color/ic_launcher_background"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -43,6 +47,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
+            android:textColor="@color/yellow"
             android:textSize="34sp"
             android:textStyle="bold" />
 
@@ -50,7 +55,9 @@
             android:id="@+id/txtN2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
             android:text="@string/strN2"
+            android:textColor="@color/ic_launcher_background"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -60,6 +67,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
+            android:textColor="@color/yellow"
             android:textSize="34sp"
             android:textStyle="bold" />
 
@@ -70,6 +78,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="numberDecimal"
+            android:textColor="@color/ic_launcher_background"
             android:textSize="96sp" />
     </LinearLayout>
 
@@ -86,7 +95,7 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSoma"
                 android:layout_width="200dp"
                 android:layout_height="100dp"
@@ -97,7 +106,7 @@
                 android:textSize="34sp"
                 android:textStyle="bold" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSub"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
@@ -114,7 +123,7 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnMult"
                 android:layout_width="200dp"
                 android:layout_height="100dp"
@@ -125,7 +134,7 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnDiv"
                 android:layout_width="200dp"
                 android:layout_height="100dp"
